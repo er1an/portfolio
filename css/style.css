@@ -22,6 +22,10 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+.section-title {
+  text-transform: uppercase;
+  text-align: center;
+}
 .header {
   background-color: var(--accent);
 }
@@ -60,4 +64,82 @@ body {
 }
 .header-menu-link:hover {
   background-color: var(--accent-light);
+}
+.intro-inner {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+}
+.intro-img {
+  width: 300px;
+  height: 300px;
+}
+.intro {
+  padding: 60px 0;
+}
+.intro-right {
+  width: 60%;
+}
+.intro-right h1 {
+  margin: 0 0 10px;
+}
+h3 {
+  margin: 0 0 10px;
+}
+.section {
+  padding: 60px 0;
+}
+.contacts ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.skills {
+  background-color: #174180;
+  color: #fff;
+  padding: 60px 0;
+}
+.skills li {
+  text-transform: uppercase;
+  padding: 10px 15px;
+  background-color: #3764a7;
+  border-radius: 4px;
+}
+.contacts {
+  margin-bottom: 60px;
+}
+.skills ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+h2 {
+  text-align: center;
+}
+.code-example {
+  text-align: center;
+}
+.code-example p {
+  font-style: italic;
+}
+.code-example b {
+  font-style: normal;
+}
+.code-example pre {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  background-color: var(--accent);
+  color: #fff;
+  font-size: 1.2em;
+  border-radius: 8px;
 }
