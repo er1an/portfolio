@@ -235,6 +235,7 @@ h3 {
     background-color: #3764a7;
     border-radius: 4px;
     margin: 0 5px 0 5px;
+    font-size: 13px;
   }
 }
 @media (max-width: 471px) {
