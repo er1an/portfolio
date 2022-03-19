@@ -127,6 +127,7 @@ h3 {
 }
 .code-example {
   text-align: center;
+  margin: 0;
 }
 .code-example p {
   font-style: italic;
@@ -135,11 +136,11 @@ h3 {
   font-style: normal;
 }
 .code-example pre {
-  width: 100%;
-  margin: 0 100px 0 0;
-
-  background-color: rgb(189, 184, 184);
-
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #174180;
+  color: #fff;
   font-size: 1em;
   border-radius: 8px;
 }
@@ -215,6 +216,15 @@ h3 {
     color: black;
     margin-left: 300px;
   } */
+  .code-example pre {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #174180;
+    color: #fff;
+    font-size: 1em;
+    border-radius: 8px;
+  }
 
   .fa-bars {
     font-size: 30px;
@@ -230,6 +240,7 @@ h3 {
     display: none;
   }
 }
+
 @media (max-width: 418px) {
   .container {
     max-width: 100%;
