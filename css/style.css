@@ -135,11 +135,11 @@ h3 {
   font-style: normal;
 }
 .code-example pre {
-  width: 50%;
-  margin: 0 auto;
-  text-align: center;
-  background-color: var(--accent);
-  color: #fff;
+  width: 100%;
+  margin: 0 100px 0 0;
+
+  background-color: rgb(189, 184, 184);
+
   font-size: 1em;
   border-radius: 8px;
 }
@@ -211,6 +211,10 @@ h3 {
     justify-content: space-between;
     align-items: center;
   }
+  /* code {
+    color: black;
+    margin-left: 300px;
+  } */
 
   .fa-bars {
     font-size: 30px;
